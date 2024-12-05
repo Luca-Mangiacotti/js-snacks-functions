@@ -6,7 +6,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 // Dichiara la funzione qui.
 const initNames = (namesList) => {
     let initList = [""]
-    for (let i = 0; i < names.length; i++){
+    for (let i = 0; i < namesList.length; i++){
             initList[i] = namesList[i].charAt(0)
             
         }
