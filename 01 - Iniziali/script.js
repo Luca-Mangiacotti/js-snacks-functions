@@ -5,9 +5,9 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 // Dichiara la funzione qui.
 const initNames = (namesList) => {
-    let initList = [""]
+    let initList = []
     for (let i = 0; i < namesList.length; i++){
-            initList[i] = namesList[i].charAt(0)
+            initList.push(namesList[i].charAt(0))
             
         }
     return initList
